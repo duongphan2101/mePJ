@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    display: flex;
+    height: 46px;
+    background-color: #6c6c6c;
+}
+
+.header_left{
+    position: relative;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.header_left > ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* box-shadow: 0 0 25px rgba(88, 169, 194, 0.5); */
+}
+
+.header_left > ul > li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header_left > ul > li:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.header_logo{
+    width: 40%;
+    text-align: center;
+}
+
+.individual{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 46px;
+    font-size: 40px;
+}
+
+.individual:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.header_right{
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_right > .setting{
+    list-style-type: none;
+    font-weight: bold;
+    color: white;
+    line-height: 46px;
+}
+
+.setting:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.sear{
+    width: 65%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    height: 40px;
+    margin-top: 3px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(88, 169, 194, 0.5);
+}
+
+.sear_icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+.sear_input{
+    height: 38px;
+    width: 65%;
+    margin-top: .5px;
+    border: none;
+    outline: none;
+    background-color: #6c6c6c;
+    color: white;
+}
+
+#container{
+    position: relative;
+    height: 800px;
+    display: flex;
+    top: -1px;
+    z-index: 1;
+}
+
+.banner {
+    position: relative;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.container_left{
+    width: 40%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    padding-top: 5%;
+}
+
+.icard {
+    position: absolute;
+    border: 1px solid gray;
+    height: 550px;
+    width: 450px;
+    border-radius: 25px;
+    background-color: rgba(170, 190, 197, 0.2);
+}
+
+.infor{
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+
+.in4{
+    font-size: 18px;
+}
+
+.me {
+    position: absolute;
+    width: 200px;
+    top: 75px;
+    right: 35px;
+    border-radius: 5px;
+}
+
+.icard_footer {
+    position: relative;
+    display: flex;
+    height: 46px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icard_footerleft {
+    position: relative;
+    width: 50%;
+    color: white;
+}
+
+.icard_footerright{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.icard_audio {
+    position: relative;
+    display: block;
+    margin-top: 175px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title_audio{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+
