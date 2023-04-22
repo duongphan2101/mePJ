@@ -9,7 +9,7 @@ header{
     position: relative;
     display: flex;
     height: 46px;
-    background-color: #6c6c6c;
+    background-color: black;
 }
 
 .header_left{
@@ -86,7 +86,7 @@ header{
     height: 40px;
     margin-top: 3px;
     border-radius: 15px;
-    box-shadow: 0 0 25px rgba(88, 169, 194, 0.5);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
 }
 
 .sear_icon{
@@ -101,7 +101,7 @@ header{
     margin-top: .5px;
     border: none;
     outline: none;
-    background-color: #6c6c6c;
+    background-color: black;
     color: white;
 }
 
@@ -140,18 +140,11 @@ header{
     position: relative;
     color: white;
     padding: 20px;
+    margin-top: 40px;
 }
 
 .in4{
     font-size: 18px;
-}
-
-.me {
-    position: absolute;
-    width: 200px;
-    top: 75px;
-    right: 35px;
-    border-radius: 5px;
 }
 
 .icard_footer {
@@ -166,6 +159,7 @@ header{
     position: relative;
     width: 50%;
     color: white;
+    opacity: .5;
 }
 
 .icard_footerright{
@@ -191,5 +185,35 @@ header{
     margin: 15px 0;
 }
 
+.row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.row_in_row1{
+    width: 60%;
+    opacity: 0.5;
+}
+
+.row_in_row2{
+    width: 40%;
+    padding-left: 22px;
+    opacity: 0.5;
+}
+
+.audio_1{
+    color: green;
+}
+
+.avt {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 170px;
+    height: 170px;
+    margin-top: 25px;
+    border-radius: 50%;
+    opacity: .7;
+}
 
 
